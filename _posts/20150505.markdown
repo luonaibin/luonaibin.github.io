@@ -3,10 +3,20 @@ layout:     post
 title:      关于考研的一些想法
 date:       2015-05-05 0:31:19
 summary:    所有被千夫所指的困难，都是为了淘汰掉懦夫！
-categories: jekyll pixyll
 ---
 
-#Github博客
+<style type="text/css">
+p{
+	text-indent: 2em;
+}
+.post img {
+  margin-bottom: 0rem;
+}
+</style>
+
+<p class="intro">
+	<span class="dropcap">考研</span>总结
+</p>
 
  ## 关于考研
  2013年考研终于落下了大幕。或许对于经历过考研的人来说，有喜有悲。我有幸在2013年考研大军中顺利拿到了入场券。回想起一年来的心路历程，想通 过文字记录下来。倘若在将来的某一天，打开日志，发现自己也是那么意气风发过，或许是一件值得慰藉的事情吧，也许只是自己幼稚的心路历程罢了！       
