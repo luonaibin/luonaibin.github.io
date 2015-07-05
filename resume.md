@@ -36,8 +36,8 @@ img{
 ### 联系方式
 
 - 手机：15216716786 
-- Email：<a href="mailto:xjf891121@gmail.com">xjf891121@gmail.com</a>
-- QQ/微信号：402077243
+- Email：<a href="mailto:jsluonaibin@163.com">jsluonaibin@163.com</a>
+- QQ/微信号：luonaibin001
 
 ---
 
@@ -47,9 +47,9 @@ img{
 
  - 骆乃斌/男/1989 
  - 研究生/上海大学计算机系
- - 籍贯：湖北省黄石市 
+ - 籍贯：江苏省宿迁市 
  - 通信地址：上海市宝山区上大路99号计算机楼
- - 微博：[@落世离歌](http://weibo.com/u/2438098050)
+ - 微博：[@落叶飘香001](http://weibo.com/u/2438098050)
  - 技术博客：[http://luonaibin.github.io](http://luonaibin.github.io/)
  - Github: [https://github.com/luonaibin](https://github.com/luonaibin) 
  - 期望职位：C/C++高级程序员，系统架构师

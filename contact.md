@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact 新成
+title: Contact 落叶飘香
 ---
 
 <div id="contact">
@@ -8,7 +8,7 @@ title: Contact 新成
   <div class="contactContent">
     <p class="intro">This is an example Contact page. If you want to make changes then do so in the <code>contact.html</code> file.</p>
     <p>The form is provided by <a href="http://formspree.io/">Formspree.</a> Follow the directions on their site to set up the form for use.</p>
-    <p>If you have questions about the theme feel free to <a href="mailto:xujunfu@shu.edu.cn">email me</a> or create an issue on <a href="https://github.com/JunFuXu">GitHub</a>. Enjoy!</p>
+    <p>If you have questions about the theme feel free to <a href="mailto:xujunfu@shu.edu.cn">email me</a> or create an issue on <a href="https://github.com/luonaibin">GitHub</a>. Enjoy!</p>
   </div>
   <form action="https://formspree.io/xujunfu@shu.edu.cn" method="POST">
     <label for="name">姓名</label>    

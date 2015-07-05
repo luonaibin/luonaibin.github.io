@@ -1,7 +1,7 @@
-title: 新成
+title: 落叶飘香
 description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
 
-url: http://JunFuXu.github.com
+url: http://luonaibin.github.com
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
@@ -21,7 +21,7 @@ navigation:
    url: /resume
 
 social:
-   github: JunFuXu
-   twitter: JunFuXu
-   facebook: JunFuXu
-   email: xujunfu@shu.edu.cn
+   github: luonaibin
+   twitter: luonaibin
+   facebook: luonaibin
+   email: jsluonaibin@163.cn

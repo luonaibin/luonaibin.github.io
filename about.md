@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 关于 新成
+title: 关于 落叶飘香
 ---
 
 <div class="post">
@@ -11,15 +11,15 @@ title: 关于 新成
 	<div>
     <div class="row"> 
       <label class="col-sm-2 control-label">姓名：</label>
-      <div class="col-sm-6">新成</div>
+      <div class="col-sm-6">骆乃斌</div>
     </div>
     <div class="row"> 
       <label class="col-sm-2 control-label">籍贯：</label>
-      <div class="col-sm-6">湖北-阳新</div>
+      <div class="col-sm-6">江苏-宿迁</div>
     </div>
     <div class="row"> 
       <label class="col-sm-2 control-label">邮箱：</label>
-      <div class="col-sm-6"><a href="mailto:xujunfu@shu.edu.cn">xujunfu@shu.edu.cn</a></div>
+      <div class="col-sm-6"><a href="mailto:xujunfu@shu.edu.cn">jsluonaibin@163.com</a></div>
     </div>
     <div class="row"> 
       <label class="col-sm-2 control-label">现居：</label>
@@ -31,11 +31,11 @@ title: 关于 新成
     </div>
     <div class="row"> 
       <label class="col-sm-2 control-label">喜欢的书：</label>
-      <div class="col-sm-6"><<上帝掷骰子吗>></div>
+      <div class="col-sm-6"><<中国哲学简史>></div>
     </div>
     <div class="row"> 
       <label class="col-sm-2 control-label">出生日期：</label>
-      <div class="col-sm-6">1989-11-21</div>
+      <div class="col-sm-6">1990-12-02</div>
     </div>
     <div class="row"> 
       <label class="col-sm-2 control-label">签名：</label>
