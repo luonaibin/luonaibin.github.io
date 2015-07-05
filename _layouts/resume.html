@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+{% include head.html %}
+<style type="text/css">
+	.container {
+	  width: 750px;
+	}
+</style>
+<body>
+
+   <div class="content">
+      <div class="container">
+         {{ content }}
+      </div>
+   </div><!-- end .content -->
+
+</body>
+</html>
+<script type="text/javascript">
+function printResume()
+{
+	document.getElementById("printerInfo").className += " noprint";
+	window.print();
+	document.getElementById("printerInfo").className = "";
+}
+</script>

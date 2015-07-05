@@ -1,0 +1,23 @@
+# 高斯分布
+
+## 大纲
+* 为什么我们关注高斯分布
+* 一篇PDF的shang
+* 单变量高斯模型
+* 多变量高斯模型
+
+## 1.	Why 高斯分布
+* 在大自然中高斯分布如同阳光，空气一般的常见
+* 我们需要使用它去理解贝叶斯分类优化
+* 我们需要使用它去理解回归分析
+* 我们需要使用它去理解神经网络
+* 我们需要使用它去理解混合模型
+* 我们也可以使用它去找女朋友，哈哈哈
+* … …
+
+## 2.	概率密度分布函数(probability density functions)的熵
+
+### 1. 单位方差的 Box 分布
+
+![Alt text](./boxDistribution.png "Optional title")
+This expression $\sqrt{3x-1}+(1+x)^2$ is an example of a $\LaTeX$ inline equation.
