@@ -1,20 +1,20 @@
 # 联系方式
 
-- 手机：15216716786 
+- 手机：13-585-787-696 
 - Email：<a href="mailto:xjf891121@gmail.com">xjf891121@gmail.com</a>
-- QQ/微信号：402077243
+- QQ/微信号：luonaibin001
 
 ---
 
 # 个人信息
 
- - 许俊富/男/1989 
+ - 骆乃斌/男/1989 
  - 研究生/上海大学计算机系
  - 籍贯：湖北省黄石市 
  - 通信地址：上海市宝山区上大路99号计算机楼
- - 微博：[@落世离歌](http://weibo.com/u/2438098050)
- - 技术博客：[http://junfuxu.github.io](http://junfuxu.github.io/)
- - Github: [https://github.com/JunFuXu](https://github.com/JunFuXu) 
+ - 微博：[@落叶飘香001](http://weibo.com/luonaibin)
+ - 技术博客：[http://luonaibin.github.io](http://luonaibin.github.io/)
+ - Github: [https://github.com/luonaibin](https://github.com/luonaibin) 
  - 期望职位：C/C++高级程序员，系统架构师
  - 期望薪资：税前月薪10k~15k，特别喜欢的公司可例外
  - 期望城市：上海

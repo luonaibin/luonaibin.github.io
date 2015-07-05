@@ -12,13 +12,17 @@ paginate: 5
 
 navigation:
  - title: 主页
-   url: /index.html
- - title: 关于
-   url: /about
- - title: Contact
-   url: /contact
+   url: http://luonaibin.github.io/index.html
+   target: _self
+ - title: GitHub
+   url: https://github.com/luonaibin
+   target: _blank
  - title: 简历
-   url: /resume
+   url: http://luonaibin.github.io/resume
+   target: _blank
+ - title: 关于
+   url: http://luonaibin.github.io/about
+   target: _self
 
 social:
    github: luonaibin
