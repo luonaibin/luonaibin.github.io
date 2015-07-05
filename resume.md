@@ -37,7 +37,7 @@ img{
 
 - 手机：135-8578-7696 
 - Email：<a href="mailto:jsluonaibin@163.com">jsluonaibin@163.com</a>
-- QQ/微信号：luonaibin001
+- 微信号：luonaibin001
 
 ---
 
@@ -52,7 +52,7 @@ img{
  - 微博：[@落叶飘香001](http://weibo.com/u/2438098050)
  - 技术博客：[http://luonaibin.github.io](http://luonaibin.github.io/)
  - Github: [https://github.com/luonaibin](https://github.com/luonaibin) 
- - 期望职位：C/C++高级程序员，系统架构师
+ - 期望职位：Java/J2EE高级程序员，系统架构师，数据分析师
  - 预计毕业时间：2016-04-01
  - 期望薪资：税前月薪10k~15k，特别喜欢的公司可例外
  - 期望城市：上海
