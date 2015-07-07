@@ -48,7 +48,7 @@ img{
  - 骆乃斌/男/1989 
  - 研究生/上海大学计算机系
  - 籍贯：江苏省宿迁市 
- - 通信地址：上海市宝山区上大路99号计算机楼
+ - 通信地址：上海市宝山区南陈路333号计算机楼
  - 微博：[@落叶飘香001](http://weibo.com/u/2438098050)
  - 技术博客：[http://luonaibin.github.io](http://luonaibin.github.io/)
  - Github: [https://github.com/luonaibin](https://github.com/luonaibin) 
@@ -84,7 +84,7 @@ img{
 ### 实习经历
 
  - 上海携程&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机票研发部平台组
-
+ 
 2015.6--2015.7&nbsp;&nbsp;&nbsp;使用C#技术完成组内网站搭建相关工作。
 
 
