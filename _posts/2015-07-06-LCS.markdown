@@ -1,0 +1,18 @@
+---
+layout:     post
+title:      "最长公共子串（LCS）"
+date:       2015-07-06
+---
+
+<style type="text/css">
+p{
+	text-indent: 2em;
+}
+.post img {
+  margin-bottom: 0rem;
+}
+</style>
+
+<p class="intro">
+	<span class="dropcap">最</span>长公共子串，它不要求所求得的字符在所给的字符串中是连续的。
+</p>
