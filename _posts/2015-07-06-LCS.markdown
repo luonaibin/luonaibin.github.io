@@ -24,14 +24,13 @@ p{
 请编写一个函数，输入两个字符串，求它们的最长公共子序列。
 </p>
 ###分析：
-<p>
+
 ![lcs1.png]({{ '/assets/img/LCS/lcs1.png' | prepend: site.baseurl }})
-</p>
+
 <p>也就是说：</p>
-<p>
+
 ![lcs2.png]({{ '/assets/img/LCS/lcs2.png' | prepend: site.baseurl }})
 
-</p>
 
 ###代码：
 
