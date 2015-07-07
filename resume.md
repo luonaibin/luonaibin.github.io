@@ -84,9 +84,9 @@ img{
 ### 实习经历
 
  - 上海携程&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机票研发部平台组
-<p>
+
 2015.6--2015.7&nbsp;&nbsp;&nbsp;使用C#技术完成组内网站搭建相关工作。
-</p>
+
 
 
 ---
