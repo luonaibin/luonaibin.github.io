@@ -53,7 +53,7 @@ img{
  - 技术博客：[http://luonaibin.github.io](http://luonaibin.github.io/)
  - Github: [https://github.com/luonaibin](https://github.com/luonaibin) 
  - 期望职位：Java/J2EE高级程序员，系统架构师，数据分析师
- - 预计毕业时间：2016-04-015
+ - 预计毕业时间：2016-04-15
  - 期望薪资：税前月薪10k~15k，特别喜欢的公司可例外
  - 期望城市：上海
 
