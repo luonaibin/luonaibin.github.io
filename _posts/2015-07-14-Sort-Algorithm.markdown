@@ -128,7 +128,8 @@ p{
 
 ##2.2 快速排序
 **基本思想**首先选择一个轴值（即比较的基准），将待排序记录分割成独立的两部分，左侧记录的关键码均小于或等于轴值，右侧记录的关键码均大于等于轴值，然后分别对这两部分重复上述过程直到整个序列有序。
-    	public static int Partition(int[] a,int left,int right){
+
+    	    public static int Partition(int[] a,int left,int right){
     		int pivot = a[left];
     		while(left<right){
     			while(left<right && pivot<=a[right]){
@@ -143,8 +144,8 @@ p{
     		a[left]=pivot;
     		return left;
     	}
-
-
+    
+    
     	public static void quickSort(int[] a,int start,int end){
     		if (start<end) {
     			int mid = Partition(a,start,end);
