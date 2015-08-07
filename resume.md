@@ -29,7 +29,7 @@ img{
 }
 </style>
 
-<p id="printerInfo" style="float: right;"><a href="#" onclick="printResume()">打印</a> <a href="./assets/resume/简历--骆乃斌.docx">下载word格式</a> <a href="./assets/resume/简历--骆乃斌.pdf">下载PDF格式</a></p>
+<p id="printerInfo" style="float: right;"><a href="#" onclick="printResume()">打印</a> <a href="./assets/resume/简历--骆乃斌.doc">下载word格式</a> <a href="./assets/resume/简历--骆乃斌.pdf">下载PDF格式</a></p>
 
 ---
 
@@ -143,7 +143,7 @@ img{
  - 10月课题组内部分享：[机器学习：关联规则挖掘](./assets/resume/关联规则挖掘1.pptx)
  - 2014年课题组内部分享：[机器学习：Apriori算法](./assets/resume/Apriori算法.pptx)
 
- 
+
 ---
 
 
