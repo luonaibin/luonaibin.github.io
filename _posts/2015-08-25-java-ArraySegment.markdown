@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "设计模式分类"
-date:       2015-07-27
+title:      "数组分割"
+date:       2015-08-26
 ---
 
 <style type="text/css">
