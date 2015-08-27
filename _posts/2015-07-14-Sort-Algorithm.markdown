@@ -27,10 +27,10 @@ p{
     	public static void insertSort1(int[] a) {
     		int i, j;
     		for (i = 1; i < a.length; i++) {
-    			if (a[i - 1] a[i]) {
+    			if (a[i - 1] > a[i]) {
     				int temp = a[i];
     
-    				for (j = i - 1; j >= 0 && a[j] temp; j--) {
+    				for (j = i - 1; j >= 0 && a[j] > temp; j--) {
     					a[j + 1] = a[j];
     				}
     				a[j + 1] = temp;
