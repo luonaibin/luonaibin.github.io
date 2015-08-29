@@ -282,20 +282,137 @@ p{
 
 
 ### 十三、 调整数组顺序使其奇数位于偶数前面
-**题目描述**
+**题目描述**输入一个整数数组，实现一个函数来调整该数组中数字的顺序，使得所有的奇数位于数组的前半部分，所有的偶数位于位于数组的后半部分，并保证奇数和奇数，偶数和偶数之间的相对位置不变。
+
+		import java.util.LinkedList;
+		import java.util.Queue;
+		public class Solution {
+			public  void reOrderArray(int[] array) {
+				Queue<Integer> odd_queue = new LinkedList<>();// 奇数列
+				Queue<Integer> even_queue = new LinkedList<>();// 偶数列
+				for (int i = 0; i < array.length; i++) {
+					if (isOdd(array[i])) {
+						odd_queue.add(array[i]);
+					} else {
+						even_queue.add(array[i]);
+					}
+				}
+				int i = 0;
+				while (!odd_queue.isEmpty()) {
+					array[i++] = odd_queue.poll();
+				}
+				while (!even_queue.isEmpty()) {
+					array[i++] = even_queue.poll();
+				}
+			}
+		 
+			public  boolean isOdd(int x) {// 判断是否是奇数
+				if (x % 2 == 1) {
+					return true;
+				} else {
+					return false;
+				}
+			}
+		}
 
 
 ### 十四、 链表中倒数第k个结点
-**题目描述**
+**题目描述**输入一个链表，输出该链表中倒数第k个结点。
 
+		/*
+		public class ListNode {
+			int val;
+			ListNode next = null;
+		 
+			ListNode(int val) {
+				this.val = val;
+			}
+		}
+		*/
+		public class Solution {
+			public ListNode FindKthToTail(ListNode head,int k) {
+				if(head==null || k==0){
+					return null;
+				}
+				ListNode p=head;
+				ListNode q=head;
+				while(k-->1){
+					q=q.next;
+					if(q==null){
+						return null;
+					}
+				}
+				while(q.next!=null){
+					q=q.next;
+					p=p.next;
+				}
+				return p;
+			}
+		}
 
 ### 十五、 反转链表
-**题目描述**
+**题目描述**输入一个链表，反转链表后，输出链表的所有元素。
 
+		/*public class ListNode {
+			int val;
+			ListNode next = null;
+		 
+			ListNode(int val) {
+				this.val = val;
+			}
+		}*/
+		public class Solution {
+			public ListNode ReverseList(ListNode head) {
+		if(head==null){
+					return null;
+				}
+				ListNode p1=head;
+				ListNode p2=p1.next;
+				ListNode p3;
+				while(p2!=null){
+					p3=p2.next;
+					p2.next=p1;
+					p1=p2;
+					p2=p3;
+				}
+				head.next=null;
+				head=p1;
+				return head;
+			}
+		}
 
 ### 十六、 合并两个排序的链表
-**题目描述**
+**题目描述**输入两个单调递增的链表，输出两个链表合成后的链表，当然我们需要合成后的链表满足单调不减规则。
 
+		/*
+		public class ListNode {
+			int val;
+			ListNode next = null;
+		 
+			ListNode(int val) {
+				this.val = val;
+			}
+		}
+		*/
+		public class Solution {
+			public ListNode Merge(ListNode list1,ListNode list2) {
+				if (list1 == null) {
+					return list2;
+				} else if (list2 == null) {
+					return list1;
+				}
+		 
+				ListNode p = null;
+				if (list1.val < list2.val) {
+					p = list1;
+					p.next = Merge(list1.next, list2);
+				} else {
+					p = list2;
+					p.next = Merge(list1, list2.next);
+				}
+				return p;
+			}
+		}
 
 ### 十七、 树的子结构
 **题目描述**
