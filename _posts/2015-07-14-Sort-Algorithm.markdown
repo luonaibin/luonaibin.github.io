@@ -177,7 +177,104 @@ p{
 >     	}
 > 
 
+			/**
+			 * 选择排序
+			 * 
+			 * @param a
+			 */
+			public static void selectSort1(int[] a) {
+				for (int i = 0; i < a.length; i++) {
+					for (int j = i + 1; j < a.length; j++) {
+						if (a[i] > a[j]) {
+							swap(a, i, j);
+						}
+					}
+				}
+			}
+		
+			public static void swap(int[] a, int i, int j) {
+				a[i] = a[i] ^ a[j];
+				a[j] = a[i] ^ a[j];
+				a[i] = a[i] ^ a[j];
+			}
+		
+			public static void selectSort2(int[] a, int n) {
+				int min;
+				for (int i = 0; i < n - 1; i++) {
+					min = i;
+					for (int j = i + 1; j < n; j++) {
+						if (a[j] < a[min]) {
+							min = j;
+						}
+					}
+					if (min != i) {
+						swap(a, i, min);
+					}
+				}
+			}
+
+
+
 ### 3.2 堆排序
+
+
+
+ public class HeapSort {
+	public static int N;
+
+	public static void MAX_HEAPITY(int[] A, int i) {
+		int l = i * 2;
+		int r = i * 2 + 1;
+		int largest;
+		if (l <= N && A[l] > A[i]) {
+			largest = l;
+		} else {
+			largest = i;
+		}
+		if (r <= N && A[r] > A[i]) {
+			largest = r;
+		}
+		if (largest != i) {
+			exchange(A, i, largest);
+			MAX_HEAPITY(A, largest);
+		}
+	}
+
+	public static void exchange(int[] A, int i, int j) {
+		A[i] = A[i] ^ A[j];
+		A[j] = A[i] ^ A[j];
+		A[i] = A[i] ^ A[j];
+	}
+
+	public static void BUILD_MAX_HEAP(int[] A) {
+		N = A.length - 1;
+		for (int i = N / 2; i >= 0; i--) {
+			MAX_HEAPITY(A, i);
+		}
+	}
+
+	public static void HEAPSORT(int[] A) {
+		BUILD_MAX_HEAP(A);
+		for (int i = N; i > 0; i--) {
+			exchange(A, 0, i);
+			N--;
+			MAX_HEAPITY(A, 0);
+		}
+	}
+
+	public static void main(String[] args) {
+		int[] a = { 3, 5, 1, 9, 6, 0, 4 };
+		for (int v : a) {
+			System.out.print(v + " ");
+		}
+		System.out.println();
+		HEAPSORT(a);
+		for (int v : a) {
+			System.out.print(v + " ");
+		}
+	}
+}
+
 ## 四、归并排序
 ### 4.1 二路归并排序
 ### 4.2 多路归并排序 
