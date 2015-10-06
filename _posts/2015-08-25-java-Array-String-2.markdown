@@ -88,6 +88,60 @@ p{
 
 ### 二十三、 二叉搜索树的后序遍历序列
 
+**题目描述**
+输入一个整数数组，判断该数组是不是某二叉搜索树的后序遍历的结果。如果是则输出Yes,否则输出No。假设输入的数组的任意两个数字都互不相同。
+	
+	package com.nowcoder;
+	
+	/**
+	 * 二叉搜索树的后序遍历序列
+	 * 输入一个整数数组，判断该数组是不是某二叉搜索树的后序遍历的结果。如果是则输出Yes,否则输出No。假设输入的数组的任意两个数字都互不相同。
+	 * 
+	 * @author luo
+	 *
+	 */
+	public class BinaryTreePostOrder {
+	public static boolean VerifySquenceOfBST(int[] sequence, int start, int end) {
+		if (sequence == null || start > end) {
+			return false;
+		}
+		int root = sequence[end];
+		int i = start;
+		for (; i < end; i++) {
+			if (sequence[i] > root) {
+				break;
+			}
+		}
+		int j = i;
+		for (; j < end; j++) {
+			if (sequence[j] < root) {
+				return false;
+			}
+		}
+		boolean lflag = true;
+		if (i > start) {
+			lflag = VerifySquenceOfBST(sequence, start, i - 1);
+		}
+		boolean rflag = true;
+		if (i < end) {
+			rflag = VerifySquenceOfBST(sequence, i, end - 1);
+		}
+		return (lflag && rflag);
+	}
+
+	public static boolean VerifySquenceOfBST(int[] sequence) {
+		return VerifySquenceOfBST(sequence, 0, sequence.length - 1);
+	}
+
+	public static void main(String[] args) {
+		int[] seq = { 5, 7, 6, 9, 11, 10, 8 };
+		int[] qes = { 7, 4, 6, 5 };
+		System.out.println(VerifySquenceOfBST(seq));
+		System.out.println(VerifySquenceOfBST(qes));
+	}
+	}
+
+
 ### 二十四、 二叉树中和为某一值的路径
 
 ### 二十五、 复杂链表的复制
