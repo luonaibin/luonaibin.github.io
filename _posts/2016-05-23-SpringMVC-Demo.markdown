@@ -39,5 +39,11 @@ p{
 
 * 在用户**修改**操作功能时，点击提交无反应。
 ![update-pic.jpg]({{ '/assets/img/SpringMVCDemo/update-pic.jpg' | prepend: site.baseurl }})
->     可能是在updateUser.jsp页面中缺少添加语句：   <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+
+>      可能是在updateUser.jsp页面中缺少添加语句：   <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+
+*更新时间2016-05-24 16：43*
+
+
+
 
