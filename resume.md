@@ -29,7 +29,7 @@ img{
 }
 </style>
 
-<p id="printerInfo" style="float: right;"><a href="#" onclick="printResume()">打印</a> <a href="./assets/resume/简历--骆乃斌.doc">下载word格式</a> <a href="./assets/resume/简历--骆乃斌.pdf">下载PDF格式</a></p>
+<p id="printerInfo" style="float: right;"><a href="#" onclick="printResume()">打印</a> <a href="/assets/resume/简历--骆乃斌.doc">下载word格式</a> <a href="/assets/resume/简历--骆乃斌.pdf">下载PDF格式</a></p>
 
 ---
 
@@ -137,10 +137,10 @@ img{
 ---
 ### 演讲和讲义
 
- - 2015 Smart World Congress会议演讲：[基于决策树的用户模型预测：Online Survey Prediction Model for High Response Rate via Decision Tree](./assets/resume/UUMA-7.pptx)
- - 5月课题组内部分享：[信息融合：时间序列聚类](./assets/resume/时间序列聚类.pptx)
- - 10月课题组内部分享：[机器学习：关联规则挖掘](./assets/resume/关联规则挖掘1.pptx)
- - 2014年课题组内部分享：[机器学习：Apriori算法](./assets/resume/Apriori算法.pptx)
+ - 2015 Smart World Congress会议演讲：[基于决策树的用户模型预测：Online Survey Prediction Model for High Response Rate via Decision Tree](/assets/resume/UUMA-7.pptx)
+ - 5月课题组内部分享：[信息融合：时间序列聚类](/assets/resume/时间序列聚类.pptx)
+ - 10月课题组内部分享：[机器学习：关联规则挖掘](/assets/resume/关联规则挖掘1.pptx)
+ - 2014年课题组内部分享：[机器学习：Apriori算法](/assets/resume/Apriori算法.pptx)
 
 
 ---
