@@ -43,7 +43,7 @@ img{
 
 ### 个人信息
 
-<img src="./assets/resume/luonaibin.jpg">
+<img src="/assets/resume/luonaibin.jpg">
 
  - 骆乃斌/男/1990 
  - 研究生/上海大学计算机系/计算机应用技术
