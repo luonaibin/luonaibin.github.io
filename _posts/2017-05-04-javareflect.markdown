@@ -19,11 +19,9 @@ p{
 * 但是实际上他们是有区别的。
 * 第一，ClassLoader.loadClass可以显式指定装载class的ClassLoader，但是Class.forName就不行了，他会默认使用调用类的ClassLoader来装载class。
 * 第二，ClassLoader.loadClass仅仅加载class进来，但是不会初始化类，而Class.forName不仅会加载class而且还会初始化类。我们可以做个试验。
-```Java
+    ```Java
     package levi;  
-      
     public class TestClassLoader {  
-             
             public static void main(String [] args) throws ClassNotFoundException{  
                    Class c = Class.forName( "levi.TestClassLoader$UnderTestClass1" );  
                     
@@ -50,6 +48,6 @@ p{
       
     }  
 
->这段代码运行后，执行结果是只输出了test1而没有test2，说明Class.forName事实上还做了初始化的工作。
+* 这段代码运行后，执行结果是只输出了test1而没有test2，说明Class.forName事实上还做了初始化的工作。
 
 [本文转载链接](http://blog.csdn.net/liweisnake/article/details/8857744)
