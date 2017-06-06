@@ -20,7 +20,7 @@ p{
 * 第二，ClassLoader.loadClass仅仅加载class进来，但是不会初始化类，而Class.forName不仅会加载class而且还会初始化类。我们可以做个试验。
 
 
-##关于作者
+##关于代码
 
 ```java
 package levi;  
@@ -51,5 +51,6 @@ public class TestClassLoader {
 }  
 ```
 这段代码运行后，执行结果是只输出了test1而没有test2，说明Class.forName事实上还做了初始化的工作。
-##转载
+
+## 转载
 * [转自csdn](http://blog.csdn.net/liweisnake/article/details/8857744)
